@@ -23,6 +23,18 @@ This API uses the `facebook/bart-large-mnli` model, which is a large version of 
 
     The model then calculates the probability that the premise entails each hypothesis. The label with the highest probability is returned as the predicted sentiment. This powerful technique allows the model to classify text into categories it has never seen during its training.
 
+## How This API Helps Travellers
+
+Imagine you're planning a trip to a new country. Beyond looking at travel guides, you want to get a real-time sense of the current atmosphere or "vibe" of your destination. This API can help you do just that.
+
+By feeding it recent news headlines from the city or country you plan to visit, you can get an aggregated view of the local sentiment:
+
+*   **Overwhelmingly POSITIVE news?** This could indicate a period of celebration, economic prosperity, or general safety, suggesting a vibrant and welcoming environment for your trip.
+*   **A spike in NEGATIVE news?** This might alert you to political unrest, social issues, or natural disasters, allowing you to be more cautious or even reconsider your travel plans.
+*   **Mostly NEUTRAL news?** This suggests a "business as usual" state of affairs.
+
+In essence, this tool allows a traveller to go beyond static reviews and get a dynamic, data-driven insight into their destination, helping them make safer and more informed decisions.
+
 ## Getting Started
 
 ### Prerequisites
